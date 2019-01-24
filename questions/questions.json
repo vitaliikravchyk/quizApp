@@ -1,0 +1,94 @@
+{
+    "firstQuestion": {
+        "name": "Хозяен",
+        "image": "images/001k.jpg",
+        "description": "Перед тобой картинка, кто на ней?",
+        "firstOption": "Бодя Пивошенко",
+        "secondOption": "Человек по имени 'капусняк'",
+        "thirdOption": "Сирожа 00000000000001k",
+        "fourthOption": "Себек",
+        "nextQuestionHref": "/question/second",
+        "answer": "Сирожа 00000000000001k"
+    },
+    "secondQuestion": {
+        "name": "Себечья выслуга",
+        "image": "images/captain-sebek.jpg",
+        "description": "Какое звание у Себека?",
+        "firstOption": "Боцман",
+        "secondOption": "Генерал",
+        "thirdOption": "Собаки не служат",
+        "fourthOption": "Старший лейтенат",
+        "nextQuestionHref": "/question/third",
+        "answer": "Старший лейтенат"
+    },
+    "thirdQuestion": {
+        "name": "Машинка",
+        "image": "images/sebek-with-car.jpg",
+        "description": "Любимая машина Серёги00000000000001k?",
+        "firstOption": "Тойота(Лексус)",
+        "secondOption": "Бус-карабус",
+        "thirdOption": "Неразмытка",
+        "fourthOption": "Вольво",
+        "nextQuestionHref": "/question/fourth",
+        "answer": "Тойота(Лексус)"
+    },
+    "fourthQuestion": {
+        "name": "Пидпал",
+        "image": "images/pidpal.jpg",
+        "description": "Кто из них \"займается пидпаламы\"?",
+        "firstOption": "1",
+        "secondOption": "2",
+        "thirdOption": "3",
+        "fourthOption": "4",
+        "nextQuestionHref": "/result",
+        "answer": "4"
+    },
+    "quizData" : [
+        {
+            "question_name" : "dog_owner",
+            "image" : "src",
+            "description" : "",
+            "questions": [
+                {
+                    "text" : "Бодя Пивошенко",
+                    "check" : false
+                },
+                {
+                    "text" : "Человек по имени 'капусняк'",
+                    "check" : false
+                },
+                {
+                    "text" : "Сирожа 00000000000001k",
+                    "check" : false
+                },
+                {
+                    "text" : "Себек",
+                    "check" : false
+                }
+            ]
+        },
+        {
+            "question_name" : "dog_owner",
+            "image" : "src",
+            "description" : "",
+            "questions": [
+                {
+                    "text" : "Бодя Пивошенко",
+                    "check" : false
+                },
+                {
+                    "text" : "Человек по имени 'капусняк'",
+                    "check" : false
+                },
+                {
+                    "text" : "Сирожа 00000000000001k",
+                    "check" : false
+                },
+                {
+                    "text" : "Себек",
+                    "check" : false
+                }
+            ]
+        }
+    ]
+}

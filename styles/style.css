@@ -1,0 +1,143 @@
+body {
+    margin: 0;
+    background: url(../images/backgorund-sebek.jpg);
+    background-size: 100%;
+}
+main {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+section {
+    width: 85%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+section a {
+    text-decoration: none;
+}
+h1 {
+    text-align: center;
+    padding: 20px;
+    margin-top: 0;
+}
+
+.start-btn {
+    width: 20%;
+}
+header {
+    border-radius: 0px 0px 15px 15px;
+    background-color: rgb(250, 240, 153);
+    box-shadow: 0px 7px 29px 1px rgba(0,0,0,0.55);
+}
+.quiz {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+figure {
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0;
+    padding: 0 20px;
+    background-color: rgb(238, 238, 185);
+    border-radius: 40px;
+}
+h2{
+    width: 26.1%;
+    text-align: center;
+    margin: 15px 0 0 0;
+    padding: 10px;
+    background-color: rgb(238, 238, 185);
+    border-radius: 20px 20px 0 0;
+    color: rgb(49, 49, 49);
+}
+#description {
+    width: 100%;
+    text-align: center;
+    margin: 0;
+    padding: 15px;
+}
+figure img {
+    width: 30%;
+    height: 300px;
+}
+
+form {
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+form button {
+    margin: 15px auto;
+    padding: 10px;
+    width: 30%;
+    cursor: pointer;
+    border-radius: 10px;
+    outline: 0;
+    font-size: 17px;
+    color: rgb(131, 167, 240);
+    font-weight: bold;
+}
+.option {
+    width: 40%;
+    margin: 5px;
+    background-color: rgb(193, 212, 248);
+    text-align: left;
+    font-size: 20px;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    color: rgb(44, 44, 44)
+}
+label[for="firstOption"] {
+    border-radius: 20px 0 0 0;
+}
+label[for="secondOption"] {
+    border-radius: 0 20px 0 0;
+}
+label[for="thirdOption"]{
+    border-radius: 0 0 0 20px;
+}
+label[for="fourthOption"]{
+    border-radius: 0 0 20px 0;
+}
+#result {
+    background-color: rgb(193, 212, 248);
+    width: 40%;
+    text-align: center;
+    font-size: 30px;
+    margin: 0;
+    padding: 10px 0;
+    border-radius: 10px 10px 0 0;
+}
+#resultImage {
+    width: 40%;
+    height: 300px;
+}
+#restartBtn {
+    background-color: rgb(193, 212, 248);
+    width: 40%;
+    font-size: 15px;
+    padding: 15px;
+    cursor: pointer;
+    border-radius: 0 0 10px 10px;
+    outline: 0;
+}
+#start {
+    background-color: white;
+    position: relative;
+    padding: 21px 50px;
+    font-size: 20px;
+    border-radius: 0 0 10px 10px;
+    text-decoration: none;
+    background-color: rgb(250, 240, 153);
+    color: black;
+}

@@ -1,0 +1,29 @@
+ <div class="quiz">   
+    <h2>{{data.name}}</h2>
+    <figure>
+        <img ng-src="{{data.image}}" alt="Серега001к">
+        <form name="form" class="answers" ng-submit="chooseOption()">
+            <p id="description">{{data.description}}</p>
+            <!-- questionData - data that you get from json file that saves in $scope -->
+            <div ng-repeat="question in questionData"></div> 
+            
+            <label for="firstOption" class="option">
+                <input type="radio" ng-model="checked" value="{{data.firstOption}}" name="option" id="firstOption">
+                {{data.firstOption}}
+            </label>
+            <label for="secondOption" class="option">
+                <input type="radio" ng-model="checked" value="{{data.secondOption}}"name="option" id="secondOption">
+                {{data.secondOption}}
+            </label>
+            <label for="thirdOption" class="option">
+                <input type="radio" ng-model="checked" value="{{data.thirdOption}}" name="option" id="thirdOption">
+                {{data.thirdOption}}
+            </label>
+            <label for="fourthOption" class="option">
+                <input type="radio" ng-model="checked" value="{{data.fourthOption}}" name="option" id="fourthOption">
+                {{data.fourthOption}}
+            </label>
+            <button type="submit">NEXT</button>
+        </form>
+    </figure>
+</div>  
