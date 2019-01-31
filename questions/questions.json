@@ -42,53 +42,5 @@
         "fourthOption": "4",
         "nextQuestionHref": "/result",
         "answer": "4"
-    },
-    "quizData" : [
-        {
-            "question_name" : "dog_owner",
-            "image" : "src",
-            "description" : "",
-            "questions": [
-                {
-                    "text" : "Бодя Пивошенко",
-                    "check" : false
-                },
-                {
-                    "text" : "Человек по имени 'капусняк'",
-                    "check" : false
-                },
-                {
-                    "text" : "Сирожа 00000000000001k",
-                    "check" : false
-                },
-                {
-                    "text" : "Себек",
-                    "check" : false
-                }
-            ]
-        },
-        {
-            "question_name" : "dog_owner",
-            "image" : "src",
-            "description" : "",
-            "questions": [
-                {
-                    "text" : "Бодя Пивошенко",
-                    "check" : false
-                },
-                {
-                    "text" : "Человек по имени 'капусняк'",
-                    "check" : false
-                },
-                {
-                    "text" : "Сирожа 00000000000001k",
-                    "check" : false
-                },
-                {
-                    "text" : "Себек",
-                    "check" : false
-                }
-            ]
-        }
-    ]
+    }
 }

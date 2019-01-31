@@ -1,6 +1,5 @@
 angular.module('quizApp').controller('questionCntrl',['$location','$http','$scope', 'questionSrvc', function($location, $http, $scope, questionSrvc){
 
-   
     $scope.chooseOption = function(){
         if($scope.checked){
             if($scope.data.answer === $scope.checked){
@@ -8,7 +7,6 @@ angular.module('quizApp').controller('questionCntrl',['$location','$http','$scop
             }
             $location.path($scope.data.nextQuestionHref)
         }
-        console.log($scope.checked)
     }
     function getRoute(){
         return ($location.url() + 'Question').slice(10)
